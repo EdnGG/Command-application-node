@@ -10,6 +10,8 @@
 //   desc: 'Marca como compleado o pendinte la tarea',
 // }
 
+// Yargs: permite el uso de comandos en la terminal
+
 const argv = require('yargs')
   .command('create', 'create to do list', {
     descripcion: {
